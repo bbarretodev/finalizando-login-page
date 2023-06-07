@@ -1,0 +1,251 @@
+#container{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+}
+
+
+
+body{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.login {
+    background-color: white;
+    width: 65%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.signup {
+    background-color: #0eca98;
+    width: 35%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.apresentation{
+    font-size:x-large;
+    color:#ffffff;
+    padding: 15px;
+}
+
+.texto-convite{
+    color: #ffffff;
+    width: 20rem;
+    padding: 20px;
+    font-size:small;
+}
+
+.btn{
+    background: transparent;
+    border-radius: 20px;
+    border: 1px solid #ffff;
+    width: 110px;
+    height: 33px;
+    color: #ffff;
+    cursor: pointer;
+}
+
+button:active{
+    box-shadow: 0 2px 4px #00000066;
+}
+.heading {
+    position: absolute;
+    right:91%;
+    bottom: 96%;
+    text-align: left;
+    color: #0eca98;
+    font-size: small;
+    padding:5px 0 0 5px;
+}
+
+.heading span {
+    color: black;
+}
+
+.tittle{
+    display: flex;
+    justify-content: center;
+    color: #0eca98;
+    font-size:xx-large;
+    padding-bottom: 10px;
+}
+
+.traco{
+    border-top: 3px solid #fff;
+    width: 35px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.traco2{
+    border-top: 3px solid #0DCA78;
+    width: 35px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    
+}
+
+
+.icons{
+    display: flex;
+    justify-content: center;
+    gap: 13px;
+    padding: 15px;
+}
+
+.icons button{
+    border-radius: 50%;
+    border: 1px solid #B5B5B5;
+    height: 25px;
+    width: 25px;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+
+.descrition{
+    font-size: x-small;
+    display: flex;
+    justify-content: center;
+    color: #B5B5B5;
+}
+
+.inputs{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 15px;
+    gap: 1rem;
+    margin-bottom: 20px;
+}
+
+input[type="password"]:not(:focus), [type="email"]:not(:focus) {
+    opacity: 0.2; 
+  }
+
+.box-email{
+    position: relative;
+}
+
+.box-email::before{
+    font-size: x-small;
+    content: "Email";
+    position: absolute;
+    top: 7px;
+    left:20px;
+    background-color: #ffff;
+    padding: 0 4px;
+    color: #0DCA78;
+    z-index: 1;
+}
+
+.box-password{
+    position: relative;
+}
+
+.box-password::before{
+    font-size: x-small;
+    content: "Password";
+    position: absolute;
+    top: -8px;
+    left:10px;
+    background-color: #ffff;
+    padding: 0 4px;
+    color: #0DCA78;
+    z-index: 1;
+}
+
+#eye{
+    position: absolute;
+    top: 50%;
+    right:10px;
+    transform: translateY(-50%);
+    background:url(./imagens/olho-aberto.png);
+    background-size: cover;
+    width: 15px;
+    height: 15px;
+    cursor: pointer;
+}
+
+#eye.hide{
+    background-size: cover;
+    background:url(./imagens/olho-fechado.png);
+}
+
+.focus-input{
+    width: 235px;
+    height: 28px;
+}
+.btn-login{
+    border: none;
+    cursor: pointer;
+    background-color: #0DCA78;
+    border-radius: 20px;
+    width: 120px;
+    height: 33px;
+    color: #ffffff;
+    margin-top: 20px;
+}
+.focus-input:focus{
+    outline-color: #0eca98;
+}
+
+.remember-forgot {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    margin-top: 10px;
+    font-size:x-small;
+    font-weight: bold;
+  }
+  
+  .remember-forgot input[type="checkbox"] {
+    margin-right: 5px;
+    color: #0eca98;
+    
+  }
+  input[type="checkbox"] {
+    opacity: 0.3; 
+  }
+  
+  .remember-forgot a {
+    text-decoration: none;
+    color: #000000;
+    padding-left: 50px;
+  }
+
+  .text-separator {
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    color: #B5B5B5;
+  }
+  
+  .dot {
+    width: 5px;
+    height: 5px;
+    background-color:#B5B5B5;
+    border-radius: 50%;
+    margin: 0 10px;
+    
+  }
+  
+  .text {
+    font-size:x-small;
+  }
+  
+ 

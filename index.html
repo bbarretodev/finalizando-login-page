@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=
+    , initial-scale=1.0"
+    />
+    <title>Login-page</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./reset.css" />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://unpkg.com/@phosphor-icons/web@2.0.3/src/bold/style.css"
+    />
+  </head>
+  <body>
+    <div id="container">
+      <div class="login">
+        <div class="heading">Company<span>Name</span></div>
+        <h1 class="tittle">Sign in to Account</h1>
+        <div class="traco2"></div>
+        <div class="icons">
+          <button class="ph-bold ph-facebook-logo"></button>
+          <button class="ph-bold ph-linkedin-logo"></button>
+          <button class="ph-bold ph-google-logo"></button>
+        </div> 
+        <p class="descrition">or use your email account</p>
+        <div class="box-email">
+        <form class="inputs">
+          <input
+            type="email"
+            name="email"
+            id="emailInput"
+            class="focus-input"
+            placeholder="Digite seu e-mail"
+          />
+          
+        </div>
+        <div class="box-password">
+          <input
+            type="password"
+            name="password"
+            id="password"
+            class="focus-input"
+            placeholder="Password"
+          />
+          <div id="eye" onclick="showHide()"></div>
+        </div>
+          <div class="remember-forgot">
+            <input type="checkbox" id="remember" name="remember">
+            <label for="remember">Remember me</label>
+            <a>Forgot Password?</a>
+          </div>
+        </form>
+        <button class="btn-login">Sign Up</button>
+        
+        <div class="text-separator">
+          <span class="text">Privacy Policy</span>
+          <span class="dot"></span>
+          <span class="text"> Terms & Condtions</span>
+        </div>
+        
+      </div>
+
+      <div class="signup">
+        <h1 class="apresentation">Hello, Friend!</h1>
+        <div class="traco"></div>
+        <p class="texto-convite">
+          Fill up personal information and start journey with us
+        </p>
+        <button class="btn">Sign Up</button>
+      </div>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
